@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "tutorial",
+	"version": "${version}",
+	"name": "tutorial",
+	"description": "Help me!",
+	"authors": [
+		"ste!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/tutorial/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.ste.tutorial.Tutorial"
+		],
+		"fabric-datagen": [
+			"net.ste.tutorial.TutorialDataGenerator"
+		],
+		"client": [
+			"net.ste.tutorial.TutorialClient"
+		]
+	},
+	"mixins": [
+		"tutorial.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
