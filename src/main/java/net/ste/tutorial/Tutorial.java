@@ -2,7 +2,7 @@ package net.ste.tutorial;
 
 import net.fabricmc.api.ModInitializer;
 
-import net.ste.tutorial.mixin.item.ModItems;
+import net.ste.tutorial.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

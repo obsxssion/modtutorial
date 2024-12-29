@@ -1,4 +1,4 @@
-package net.ste.tutorial.mixin.item;
+package net.ste.tutorial.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.ste.tutorial.Tutorial;
